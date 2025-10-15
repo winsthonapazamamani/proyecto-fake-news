@@ -1,0 +1,165 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.news-textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.news-textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.predict-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.predict-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.error-message {
+  padding: 15px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 6px;
+}
+
+.result-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.prediction-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.prediction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prediction-badge {
+  padding: 8px 16px;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.confidence {
+  font-size: 14px;
+  color: #666;
+}
+
+.probability-breakdown h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.probability-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.probability-item span {
+  min-width: 70px;
+  font-weight: bold;
+}
+
+.probability-bar {
+  flex: 1;
+  height: 25px;
+  background-color: #e9ecef;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.probability-fill {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  transition: width 0.5s ease;
+}
+
+.probability-fill.negative {
+  background-color: #dc3545;
+}
+
+.probability-fill.positive {
+  background-color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .prediction-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
