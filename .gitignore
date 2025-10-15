@@ -1,0 +1,40 @@
+# Database
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Backup files
+*.bak
+*.backup
+*.sql.bak
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Sensitive data
+config/credentials.json
+database/backups/
+*.pem
+*.key
+
+# MySQL specific
+/mysql_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
