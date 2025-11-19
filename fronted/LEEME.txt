@@ -1,0 +1,105 @@
+🎓 PROYECTO UNIVERSITARIO - SISTEMA COMPLETO DE DETECCIÓN DE FAKE NEWS
+=======================================================================
+
+DESCRIPCIÓN:
+Sistema completo de inteligencia artificial para la detección de noticias falsas 
+en el contexto peruano. Implementa Machine Learning, Métodos de Búsqueda y 
+procesamiento de lenguaje natural especializado.
+
+CARACTERÍSTICAS PRINCIPALES:
+
+🤖 MACHINE LEARNING:
+   ✅ Modelo LSTM con TensorFlow/Keras
+   ✅ Procesamiento de texto en español peruano
+   ✅ Embeddings de palabras y capas bidireccionales
+   ✅ Regularización con Dropout
+
+🔍 MÉTODOS DE BÚSQUEDA:
+   ✅ Algoritmos Genéticos para optimización
+   ✅ Particle Swarm Optimization (PSO)
+   ✅ Simulated Annealing
+   ✅ Keras Tuner para ajuste de hiperparámetros
+
+📊 4 MÉTRICAS DE EVALUACIÓN:
+   ✅ Accuracy (Exactitud)
+   ✅ Precision (Precisión) 
+   ✅ Recall (Sensibilidad)
+   ✅ F1-Score (Métrica balanceada)
+
+🇵🇪 CONTEXTO PERUANO:
+   ✅ Procesamiento de jerga y expresiones peruanas
+   ✅ Reconocimiento de instituciones peruanas
+   ✅ Dataset con noticias peruanas reales y falsas
+   ✅ Análisis de patrones específicos
+
+🌐 INTERFAZ WEB COMPLETA:
+   ✅ Verificación en tiempo real
+   ✅ Dashboard con métricas
+   ✅ Historial de análisis
+   ✅ Control de métodos de optimización
+   ✅ Diseño responsive y moderno
+
+INSTRUCCIONES DE USO:
+
+1. EJECUCIÓN:
+   - Ejecutar "INICIAR_PROYECTO.bat"
+   - Esperar a que cargue el sistema (1-2 minutos)
+   - La interfaz web se abrirá automáticamente
+
+2. ACCESO:
+   - URL: http://localhost:8080
+   - Usuario: proyecto@universidad.edu.pe
+   - Contraseña: proyecto2024
+
+3. VERIFICACIÓN DE NOTICIAS:
+   - Ir a la pestaña "Verificar Noticia"
+   - Pegar el titular de la noticia peruana
+   - Seleccionar método de análisis
+   - Hacer clic en "Verificar Autenticidad"
+
+4. MÉTRICAS Y ANÁLISIS:
+   - Ver métricas en tiempo real en pestaña "Métricas"
+   - Revisar Accuracy, Precision, Recall y F1-Score
+
+5. OPTIMIZACIÓN:
+   - Ejecutar diferentes métodos en pestaña "Optimización"
+   - Comparar resultados de Algoritmos Genéticos, PSO y SA
+
+6. HISTORIAL:
+   - Revisar todas las verificaciones en "Historial"
+   - Ver confianza y método usado para cada análisis
+
+TECNOLOGÍAS IMPLEMENTADAS:
+
+BACKEND:
+   Python 3.9, FastAPI, TensorFlow 2.13, Keras, Scikit-learn
+   SQLite, JWT Authentication, NLTK, Pandas, NumPy
+
+FRONTEND:
+   HTML5, CSS3, JavaScript (ES6+)
+   Diseño responsive con CSS Grid y Flexbox
+
+ML & OPTIMIZATION:
+   LSTM Networks, Word Embeddings, Bidirectional Layers
+   Genetic Algorithms, Particle Swarm, Simulated Annealing
+   Keras Tuner for Hyperparameter Optimization
+
+EJEMPLOS PARA PROBAR:
+
+NOTICIAS REALES PERUANAS:
+"Ministerio de Educación anuncia nuevo currículo nacional"
+"Exportaciones peruanas crecieron 12% en el último trimestre" 
+"Sunat supera meta de recaudación tributaria"
+
+NOTICIAS FALSAS PERUANAS:
+"¡URGENTE! Descubren cura milagrosa en hierbas amazónicas"
+"Gobierno anuncia que la gasolina será gratis desde mañana"
+"ALERTA: Terremoto de 9.0 grados pronosticado para Lima"
+
+INFORMACIÓN DEL PROYECTO:
+👨‍🎓 Estudiante: [Tu Nombre]
+🎓 Universidad: [Tu Universidad]  
+📅 Año: 2024
+🔧 Asignatura: Inteligencia Artificial
+
+¡Sistema completo listo para demostraciones y evaluaciones!
